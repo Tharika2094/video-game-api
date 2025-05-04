@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <div className='searchSection'>
-        <h1>Search for a game...</h1>
+        <h2>Search for a game...</h2>
         <input type='text' onChange={(event)=>{setGameTitle(event.target.value)}} placeholder='Minecraft...'></input>
         <button onClick={searchGame}>Search Game Title</button>
         <div className="games">
